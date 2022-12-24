@@ -15,6 +15,8 @@
         <ul class="submenu menu vertical" data-submenu>
           <li><a href="helloworld.php">Hello World</a></li>
           <li><a href="kombinacijahtmlphp.php">Kombinacija HTML i PHP</a></li>
+          <li><a href="ulazniparametri.php?kljuc=12&x=5">Ulazni Parametri</a></li>
+          <li><a href="zadatak1.php?boja=red">Zadatak 1</a></li>
         </ul>
       </li>
     </ul>
