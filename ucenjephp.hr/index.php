@@ -2,9 +2,7 @@
 <!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
-   <?php
-    include_once 'head.php';
-   ?>
+   <?php include_once 'head.php'; ?>
   </head>
 <body>
 
@@ -19,7 +17,5 @@
     </div>
 
 
-    <?php
-    include_once 'skripte.php';
-   ?>
+    <?php include_once 'skripte.php'; ?>
 </html>
