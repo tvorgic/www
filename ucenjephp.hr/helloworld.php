@@ -8,12 +8,11 @@
 
     <div class="grid-container">
       <?php 
-      // Čitati : https://www.simplilearn.com/tutorials/php-tutorial/include-in-php
       require_once 'izbornik.php'; ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout" id="tijelo">
-            Koristite gornji izbornik
+            Hello World
           </div>
         </div>
         <?php include_once 'podnozje.php'; ?>
