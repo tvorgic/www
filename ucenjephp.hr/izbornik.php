@@ -14,6 +14,7 @@
         <a href="#0">Suživot HTML i PHP</a>
         <ul class="submenu menu vertical" data-submenu>
           <li><a href="helloworld.php">Hello World</a></li>
+          <li><a href="kombinacijahtmlphp.php">Kombinacija HTML i PHP</a></li>
         </ul>
       </li>
     </ul>
