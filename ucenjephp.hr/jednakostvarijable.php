@@ -8,13 +8,30 @@
 
     <div class="grid-container">
       <?php 
-      // Čitati : https://www.simplilearn.com/tutorials/php-tutorial/include-in-php
       require_once 'izbornik.php'; ?>
       <div class="grid-x grid-padding-x">
         <div class="large-12 cell">
           <div class="callout" id="tijelo">
             <?php  
-            
+                
+                //operator dodjeljivanja
+                $i = '2';
+                
+                //operator provjere vrijednosti
+                echo $i == 2, '<hr>';
+
+                //operator provjere vrijednosti i tipa podatka
+                echo $i === 2, '<hr>'; //vrijednost false se ne ispisuje, true je 1
+
+
+                echo $i > 1, '<hr>';
+                echo $i < 1, '<hr>';
+                echo $i >= 1, '<hr>';
+                echo $i >= 1, '<hr>';
+                echo $i != 1, '<hr>'; // različito
+
+
+                //logički operatori
                 
             
             ?>
