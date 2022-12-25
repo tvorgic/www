@@ -9,7 +9,7 @@
       <li>
         <a href="index.php">Učenje PHP</a>
       </li>
-        
+    
       <li class="has-submenu">
         <a href="#0">Suživot HTML i PHP</a>
         <ul class="submenu menu vertical" data-submenu>
@@ -18,6 +18,12 @@
           <li><a href="ulazniparametri.php?kljuc=12&x=5">Ulazni Parametri</a></li>
           <li><a href="zadatak1.php?boja=red">Zadatak 1</a></li>
           <li><a href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
+        </ul>
+      </li>
+      <li class="has-submenu">
+        <a href="#0">Osnove PHP jezika</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="varijable.php">Varijable</a></li>
         </ul>
       </li>
     </ul>
