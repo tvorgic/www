@@ -24,6 +24,7 @@
         <a href="#0">Osnove PHP jezika</a>
         <ul class="submenu menu vertical" data-submenu>
           <li><a href="varijable.php">Varijable</a></li>
+          <li><a href="jednakostvarijable.php"> Jednakost Varijable</a></li>
         </ul>
       </li>
     </ul>

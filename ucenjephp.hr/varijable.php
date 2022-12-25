@@ -33,6 +33,11 @@
                 $varijabla = new stdClass();
                 echo gettype($varijabla), '<hr>';
 
+
+                $i=2; $j=3;
+
+                echo "i=$i", "j=$j", '<hr>';
+
             
             ?>
           </div>
