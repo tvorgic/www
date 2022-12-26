@@ -33,6 +33,13 @@
                 echo '<pre>';
                 print_r($_SERVER);
                 echo '</pre>';
+
+                echo '<pre>';
+                echo $_SERVER['HTTP_ACCEPT_LANGUAGE'], '<hr>';                
+                echo '</pre>';
+
+
+                echo __DIR__;
             
             
             ?>
