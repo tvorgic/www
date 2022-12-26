@@ -14,7 +14,21 @@
           <div class="callout" id="tijelo">
             <?php  
             
-                
+                //čitati https://www.php.net/manual/en/reserved.variables.php
+
+                echo $_GET['kljuc'], '<hr>';
+
+                echo '<pre>';
+                print_r($_GET);
+                echo '</pre>';
+
+                echo '<pre>';
+                var_dump($_GET);
+                echo '</pre>';
+
+                $broj = (int)$_GET['t'];
+                echo $broj, ' ', gettype($broj), '<hr>';
+            
             
             ?>
           </div>
