@@ -28,6 +28,11 @@
 
                 $broj = (int)$_GET['t'];
                 echo $broj, ' ', gettype($broj), '<hr>';
+
+
+                echo '<pre>';
+                print_r($_SERVER);
+                echo '</pre>';
             
             
             ?>
