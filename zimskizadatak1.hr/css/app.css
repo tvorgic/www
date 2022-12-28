@@ -2,3 +2,18 @@
     background-color: tomato;   
 }
 
+.callout{
+    background-color: antiquewhite;
+}
+
+#login{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+#item{
+    width: 10em;
+}

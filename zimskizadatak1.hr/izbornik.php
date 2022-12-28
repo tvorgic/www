@@ -7,7 +7,7 @@
   <div class="top-bar-left">
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">Zimski zadatak 1</li>
-      <li class="has-submenu"><a href="#0">Index</a></li>
+      <li class="has-submenu"><a href="index.php">Index</a></li>
       <li><a href="#0">Nadzorna Ploča</a></li>
     </ul>
   </div>
