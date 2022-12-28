@@ -9,6 +9,8 @@
 
 
 <div class="callout secondary" id="cs">
+<a href="index.php"><button type="button" class="alert button">Natrag</button></a>
+
   <form action="">
   <label>Ime
     <input type="text" placeholder="Ime">
@@ -22,7 +24,7 @@
   <label>Lozinka
     <input type="password" placeholder="Lozinka">
   </label>
-  <a class="expanded button" href="#0">LogIn</a>
+  <a class="expanded button" href="nadzornaploca.php">LogIn</a>
 
   </form>
 </div>
