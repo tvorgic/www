@@ -8,14 +8,12 @@
     <ul class="dropdown menu" data-dropdown-menu>
       <li class="menu-text">Zimski zadatak 1</li>
       <li class="has-submenu"><a href="#0">Index</a></li>
-      <li><a href="#0">Login</a></li>
       <li><a href="#0">Nadzorna Ploča</a></li>
     </ul>
   </div>
   <div class="top-bar-right">
     <ul class="menu">
-      <li><input type="search" placeholder="Search"></li>
-      <li><button type="button" class="button">Search</button></li>
+    <li><a href="login.php">Login</a></li>
     </ul>
   </div>
 </div>
