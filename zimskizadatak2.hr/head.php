@@ -4,3 +4,4 @@
     <title>Zimski zadatak 2</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="js/bootstrap.bundle.js">
+    <link rel="stylesheet" href="style.css">
