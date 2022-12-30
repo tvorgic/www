@@ -41,9 +41,19 @@
         </div>
     </nav>
   </header>
-  <main>
+  <main class="my-5">
     <div class="container">
-        
+        <div class="row">
+            <div class="col-md-7">
+                <img src="https://picsum.photos/id/235/600/400" class="img-fluid">
+            </div>
+            <div class="col-md-5">
+                <h1>Tagline</h1>
+                <p class="mt-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam minus ea ipsam, recusandae blanditiis nam minima saepe labore accusamus eos tenetur nesciunt perspiciatis architecto doloremque sunt atque distinctio natus.
+                </p>
+            </div>
+        </div>
     </div>
   </main>
 </body>
