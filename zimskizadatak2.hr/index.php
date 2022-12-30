@@ -52,6 +52,16 @@
                 <p class="mt-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam minus ea ipsam, recusandae blanditiis nam minima saepe labore accusamus eos tenetur nesciunt perspiciatis architecto doloremque sunt atque distinctio natus.
                 </p>
+                <button type="button" class="btn btn-primary mt-3">Click!</button>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col">
+                <div class="bg-secondary text-white my-5 py-4">
+                    <div class="card-body">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, dignissimos, placeat nemo illo rerum libero dolore, nesciunt quo repellat quos amet illum sint a voluptatem.
+                    </div>                    
+                </div>
             </div>
         </div>
     </div>
