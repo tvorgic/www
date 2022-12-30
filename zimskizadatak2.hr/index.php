@@ -57,10 +57,43 @@
         </div>
         <div class="row my-5">
             <div class="col">
-                <div class="bg-secondary text-white my-5 py-4">
+                <div class="bg-secondary text-white my-3 py-3 card text-center">
                     <div class="card-body">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta, dignissimos, placeat nemo illo rerum libero dolore, nesciunt quo repellat quos amet illum sint a voluptatem.
                     </div>                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                <div class="card-group">
+  <div class="card">
+    <img src="https://picsum.photos/id/231/320/200
+" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://picsum.photos/id/232/320/200
+" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img src="https://picsum.photos/id/233/320/200
+" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>
+</div>
                 </div>
             </div>
         </div>
