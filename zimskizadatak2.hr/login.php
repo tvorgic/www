@@ -23,8 +23,8 @@
         <img src="img/zimski2img.jpg" class="card-img" alt="...">
         <div class="card-img-overlay input-group mb-3">
             <h5 class="card-title">Login</h5>
-            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-            <p class="card-text">Last updated 3 mins ago</p>
+            <p class="card-text">This is a wider card with supporting text Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto, laboriosam! This content is a little bit longer.</p>
+            <br><p class="card-text">Last updated 3 mins ago</p>
             <form action="/my-handling-form-page" method="post">
                     <ul>
                         <li>
