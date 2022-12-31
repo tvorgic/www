@@ -9,16 +9,12 @@
   <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
-            <a class="navbar-brand" href="#">Index</a>
+            <a class="navbar-brand" href="index.php">Index</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.php">Login</a>
-                </li>
-            </ul>
+           
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
@@ -31,14 +27,14 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                <img src="https://picsum.photos/id/235/600/400" class="img-fluid">
+                <img src="https://picsum.photos/id/236/600/400" class="img-fluid">
             </div>
             <div class="col-md-5">
-                <h1>Login</h1>
+                <h1>Tagline</h1>
                 <p class="mt-4">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti laboriosam minus ea ipsam, recusandae blanditiis nam minima saepe labore accusamus eos tenetur nesciunt perspiciatis architecto doloremque sunt atque distinctio natus.
                 </p>
-                <a href="login.php"><button type="button" class="btn btn-primary mt-3">Click to login!</button></a>
+                <button type="button" class="btn btn-primary mt-3">Click!</button>
             </div>
         </div>
         <div class="row my-5">
@@ -49,7 +45,7 @@
                     </div>                    
                 </div>
             </div>
-           <!-- <div class="row">
+            <div class="row">
                 <div class="col">
                 <div class="card-group">
                         <div class="card">
@@ -82,7 +78,7 @@
                         </div>
                 </div>
             </div>
-        </div>-->
+        </div>
     </div>
   </main>
   <footer class="footer mt-auto py-3 bg-dark text-white">
