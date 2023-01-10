@@ -27,6 +27,7 @@
           <li><a href="jednakostvarijable.php"> Jednakost Varijable</a></li>
           <li><a href="ugradenevarijable.php"> Ugrađene varijable</a></li>
           <li><a href="osnovnioperatori.php">Osnovni operatori</a></li>
+          <li><a target="_blank" href="uvjetnogrananeif.php">Uvjetno grananje if</a></li>
         </ul>
       </li>
     </ul>

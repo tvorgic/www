@@ -11,8 +11,18 @@
     <header>
 
     </header>
-    <section>
+    <nav>
+
+    </nav>
+    <main>
         
+    </main>
+    <section>
+
     </section>
+    
+    <footer>
+
+    </footer>
 </body>
 </html>
