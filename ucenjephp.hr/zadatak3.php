@@ -3,7 +3,7 @@
 // stranica prima dva broja putem GET parametara
 // stranica ispisuje veći
 // Ako su brojevi jednaki, stranica ispisuje: jednaki su
-
+/*
 $b1 = isset($_GET['b1']) ? $_GET['b1'] : 0;
 $b2 = isset($_GET['b2']) ? $_GET['b2'] : 0;
 if($b1===$b2){
@@ -13,7 +13,7 @@ if($b1===$b2){
 }else{
     echo $b2 . '<br>';
 }
-
+*/
 // DOMAĆA ZADAĆA
 // stranica prima TRI broja putem GET parametara
 // stranica ispisuje najmanji broj
@@ -25,10 +25,10 @@ $c3 = isset($_GET['c3']) ? $_GET['c3'] : 0;
 
 if($c1 === $c2 && $c2 === $c3){
     echo 'jednaki su' . '<br>';
-} else if($c1 < $c2 && $c2 < $c3){
-    echo 'c1' . '<br>';
+} else if($c1 < $c2 && $c1 < $c3){
+    echo $c1 . '<br>';
 } else if($c2 < $c1 && $c2 < $c3){
-    echo 'c2' . '<br>';
+    echo $c2 . '<br>';
 } else if($c3 < $c1 && $c3 < $c2){
-    echo 'c3' . '<br>';
+    echo $c3 . '<br>';
 }
