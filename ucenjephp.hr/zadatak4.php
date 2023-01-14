@@ -8,3 +8,5 @@ if($i < $j) {
 } else {
     echo $i - $j, '<br>';
 }
+
+echo $i1<$j ? $i * $j : $i * $j;
