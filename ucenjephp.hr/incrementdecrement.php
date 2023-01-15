@@ -32,8 +32,8 @@ echo ++$i, '<br>'; //uvećao na 3 i ispisao
 // Vježbanje
 
 $i=1; $j=2;
-$i += ++$j - $i; //j=3 i=3
-$j = --$i + $j; //j=5 i=2
-echo ++$i + $j--; //8
+$i += ++$j - $i; //$j= 3 $i= 3
+$j = --$i + $j; //$j = 5 $i= 5
+echo ++$i + $j--; // 8
 
-// ovdje je j=4 ali koga to briga
+
