@@ -9,4 +9,4 @@ if($i < $j) {
     echo $i - $j, '<br>';
 }
 
-echo $i1<$j ? $i * $j : $i * $j;
+echo $i<$j ? $i * $j : $i * $j;
