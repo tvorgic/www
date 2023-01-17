@@ -33,6 +33,7 @@
           <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
           <li><a target="_blank" href="forpetlja.php">For petlja</a></li>
           <li><a target="_blank" href="incrementdecrement.php">Inkrement / Dekrement</a></li>
+          <li><a target="_blank" href="nizovi.php">Nizovi</a></li>
 
 
         </ul>
