@@ -9,37 +9,54 @@
       <li>
         <a href="index.php">Učenje PHP</a>
       </li>
-    
       <li class="has-submenu">
         <a href="#0">Suživot HTML i PHP</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="helloworld.php">Hello World</a></li>
+          <li><a href="helloworld.php">Hello world</a></li>
           <li><a href="kombinacijahtmlphp.php">Kombinacija HTML i PHP</a></li>
-          <li><a href="ulazniparametri.php?kljuc=12&x=5">Ulazni Parametri</a></li>
-          <li><a href="zadatak1.php?boja=red">Zadatak 1</a></li>
-          <li><a href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
-        </ul>
+          <li><a href="ulazniparametri.php?kljuc=Ana&x=5">Ulazni parametri</a></li>
+            </ul>
       </li>
       <li class="has-submenu">
         <a href="#0">Osnove PHP jezika</a>
         <ul class="submenu menu vertical" data-submenu>
-          <li><a href="varijable.php">Varijable</a></li>
-          <li><a href="jednakostvarijable.php"> Jednakost Varijable</a></li>
-          <li><a href="ugradenevarijable.php"> Ugrađene varijable</a></li>
+          <li><a href="">Varijable</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="varijable.php">Varijable</a></li>
+              <li><a href="jednakostvarijable.php">Jednakost varijable</a></li>
+              <li><a href="ugradenevarijable.php">Ugrađene varijable</a></li>
+          </ul>
+          </li>
           <li><a href="osnovnioperatori.php">Osnovni operatori</a></li>
-          <li><a target="_blank" href="uvjetnogrananeif.php">Uvjetno grananje if</a></li>
-          <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
-          <li><a target="_blank" href="uvjetnogrananeswitch.php">Uvjetno grananje switch</a></li>
-          <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
-          <li><a target="_blank" href="forpetlja.php">For petlja</a></li>
-          <li><a target="_blank" href="incrementdecrement.php">Inkrement / Dekrement</a></li>
+          <li><a target="_blank" href="uvjetnogrananjeif.php">Uvjetno grananje if</a></li>
+          <li><a target="_blank" href="uvjetnogrananjeswitch.php">Uvjetno grananje switch</a></li>
+         <li>
+          <a href="#0">Petlje</a>
+          <ul class="submenu menu vertical" data-submenu>
+            <li><a target="_blank" href="forpetlja.php">For petlja</a></li>
+            <li><a target="_blank" href="whilepetlja.php">While petlja</a></li>
+            <li><a target="_blank" href="dowhilepetlja.php">Do while petlja</a></li>
+            <li><a target="_blank" href="foreachpetlja.php">Foreach petlja</a></li>
+          </ul>
+          </li>
+          <li><a target="_blank" href="incrementdecrement.php">Inkrement / dekrement</a></li>
           <li><a target="_blank" href="nizovi.php">Nizovi</a></li>
-          <li><a target="_blank" href="ugradeninizovi.php">Ugrađeni Nizovi</a></li>
-
-
-        </ul>
-      </li>
+          <li><a target="_blank" href="ugradeninizovi.php">Ugrađeni nizovi</a></li>
+          <li><a href="forme.php">HTML forme</a></li>
+          </ul>
+          </li>
+          <li>
+            <a href="#0">Zadaci</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a href="zadatak1.php?boja=red">Zadatak 1</a></li>
+              <li><a href="zadatak2.php?grad=Osijek">Zadatak 2</a></li>
+              <li><a target="_blank" href="zadatak3.php">Zadatak 3</a></li>
+              <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
+              <li><a target="_blank" href="zadatak5.php">Zadatak increment/dekrement</a></li>
+              <li><a target="_blank" href="zadatak6.php">Ispiši zbroj svih primljenih brojeva</a></li>
+              <li><a target="_blank" href="randomzadaci.php">Random zadaci</a></li>
+            </ul>
+          </li>
     </ul>
   </div>
-  
 </div>
