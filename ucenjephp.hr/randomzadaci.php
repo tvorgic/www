@@ -8,5 +8,11 @@ for($i = 1; $i <=10; $i++){
     }
 }
 
-echo "hr";
+echo "<hr>";
 
+$sum = 0;
+
+for($i = 1; $i <=30; $i++){
+     $sum += $i;
+}
+echo $sum;
