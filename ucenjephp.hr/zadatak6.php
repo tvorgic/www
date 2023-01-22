@@ -8,3 +8,13 @@
 
 // ulaz ?xxxxx=2&sdf=2&c1=2
 // izlaz: 6
+
+$suma=0;
+
+foreach($_GET as $k=>$v){
+    if((int)$v===0){
+        continue;
+    }
+    $suma += $v;
+}
+echo $suma;
