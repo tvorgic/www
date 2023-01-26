@@ -48,3 +48,8 @@ $colstart =0;
 $colend= -1;
 
 $initial = 1;
+
+for($i= $rowend; $i>=5; $i--){
+    $matrica[$rowend][$i] = $initial++;
+    echo $matrica;
+}
