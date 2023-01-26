@@ -14,6 +14,7 @@ echo '</table>';
 */
 
 // dodavanje array-a
+/*
 $i=5;
 $j=5;
 $matrica=[];
@@ -32,3 +33,16 @@ for($i=5;$i>=1;$i--){
      
 }
 echo '</table>';
+*/
+
+//definiranje vrijednosti
+$a=5;
+$b=5;
+
+$matrica=[];
+
+$rowstart = 0;
+$rowend = -1;
+
+$colstart =0;
+$colend= -1;
