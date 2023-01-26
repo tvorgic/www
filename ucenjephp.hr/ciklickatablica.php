@@ -46,3 +46,5 @@ $rowend = -1;
 
 $colstart =0;
 $colend= -1;
+
+$initial = 1;
