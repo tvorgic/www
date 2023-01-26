@@ -52,4 +52,8 @@ $initial = 1;
 for($i= $rowend; $i>=5; $i--){
     $matrica[$rowend][$i] = $initial++;
     echo $matrica;
+    for($j=$colend;$j>=5;$j++){
+        $matrica[$colend][$j];
+        echo $i * $j;
+    }
 }
