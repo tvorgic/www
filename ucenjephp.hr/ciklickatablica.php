@@ -1,34 +1,34 @@
 <?php
 
+//obrnuti raspored
+/*
 echo '<table>';
-    for($i=1; $i<=5; $i++){
-        echo '<tr>';
-        for($j=1; $j<=9; $j++){
-           echo '<td style="text-align: right;">'; $i + $j . '</td>'; 
-        }
-        echo '</tr>';
+for($i=5;$i>=1;$i--){
+    echo '<tr>';
+    for($j=5;$j>=1;$j--){
+        echo '<td style="text-align: right;">' . $i * $j, '</td>';
     }
-echo '</table>';
-
-
-?>
-
-
-<?php
-$sum = 0;
-    for ($i =0; $i>=30; $i++){
-         $i += $sum;
-    }
-    echo $sum;
-
-?>
-
-<?php
-$sum = 0;
-for($x=1; $x<=30; $x++)
-{
-$sum +=$x;
+    echo '</tr>';
 }
-echo "The sum of the numbers 0 to 30 is $sum"."\n";
-?>
+echo '</table>';
+*/
 
+// dodavanje array-a
+$i=5;
+$j=5;
+$matrica=[];
+echo '<table>';
+for($i=5;$i>=1;$i--){
+    $red=[];
+    echo '<tr>';
+    for($j=5;$j>=1;$j--){
+    
+        echo '<td style="text-align: right;">' . $i * $j, '</td>';
+        $stupac=[];
+        
+    }
+     echo '</tr>';
+    
+     
+}
+echo '</table>';
