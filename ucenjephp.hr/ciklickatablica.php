@@ -34,7 +34,7 @@ for($i=5;$i>=1;$i--){
 }
 echo '</table>';
 */
-
+/*
 //definiranje vrijednosti
 $a=5;
 $b=5;
@@ -52,8 +52,32 @@ $initial = 1;
 for($i= $rowend; $i>=5; $i--){
     $matrica[$rowend][$i] = $initial++;
     echo $matrica;
-    for($j=$colend;$j>=5;$j++){
+    for($j=$colend;$j>=5;$j--){
         $matrica[$colend][$j];
         echo $i * $j;
     }
+
 }
+*/
+
+$a=5;
+$b=5;
+
+$matrica=[];
+
+$rs = 0;
+$re = -1;
+
+$cs =0;
+$ce= -1;
+
+$initial = 1;
+
+
+for($i=$rs;$i<=$re;$i--){
+    $matrica[$cs][$i]= $initial++;
+    $cs++;
+
+}
+
+
