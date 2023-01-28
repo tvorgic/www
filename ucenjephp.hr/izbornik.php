@@ -43,6 +43,23 @@
           <li><a target="_blank" href="nizovi.php">Nizovi</a></li>
           <li><a target="_blank" href="ugradeninizovi.php">Ugrađeni nizovi</a></li>
           <li><a href="forme.php">HTML forme</a></li>
+          <li>
+            <a href="#0">Funkcije</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a target="_blank" href="funkcije.php">Funkcije</a></li>
+              <li><a target="_blank" href="koristenjefunkcija.php">Korištenje vlastitih funkcija</a></li>
+              <li><a target="_blank" href="rekurzija.php">Rekurzija</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#0">OOP</a>
+            <ul class="submenu menu vertical" data-submenu>
+              <li><a target="_blank" href="klasaobjekt.php">Klasa/objekt</a></li>
+              <li><a target="_blank" href="ucahurivanje.php">Učahurivanje</a></li>
+              <li><a target="_blank" href="magicnemetode.php">Magične metode</a></li>
+              <li><a target="_blank" href="nasljedivanje.php">Nasljeđivanje</a></li>
+            </ul>
+          </li>
           </ul>
           </li>
           <li>
@@ -54,7 +71,6 @@
               <li><a target="_blank" href="zadatak4.php">Zadatak 4</a></li>
               <li><a target="_blank" href="zadatak5.php">Zadatak increment/dekrement</a></li>
               <li><a target="_blank" href="zadatak6.php">Ispiši zbroj svih primljenih brojeva</a></li>
-              <li><a target="_blank" href="randomzadaci.php">Random zadaci</a></li>
             </ul>
           </li>
     </ul>
