@@ -58,8 +58,8 @@ for($i= $rowend; $i>=5; $i--){
     }
 
 }
-*/
-/*
+
+
 $a=5;
 $b=5;
 
@@ -71,7 +71,7 @@ $re = -1;
 $cs =0;
 $ce= -1;
 
-$initial = 1;
+$init = 1;
 
 
 for($i=$rs;$i<=$re;$i--){
@@ -80,4 +80,31 @@ for($i=$rs;$i<=$re;$i--){
 
 }
 
+echo $matrica[$cs][$i];
 */
+
+$a=5;
+$b=5;
+$matrica=[];
+$rs = 0;
+$re = -1;
+
+$cs =0;
+$ce= -1;
+
+$init = 1;
+
+echo '<table>';
+for($i=5;$i>=1;$i--){
+    $red=[];
+    echo '<tr>';
+    for($j=5;$j>=1;$j--){
+    
+        echo '<td style="text-align: right;">' . $i + $j, '</td>';
+        $stupac=[];
+        
+    }
+     echo '</tr>';
+}
+
+//barem nekakav napredak. proučiti dalje 
