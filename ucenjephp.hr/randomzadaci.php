@@ -115,3 +115,18 @@ function filterMovie($movies){
 
 filterMovie($movies);
 
+
+for($i=1; $i <= 10; $i++){
+    echo $i;
+}
+
+$sum = 0;
+
+for($i =1; $i<=10; $i++){
+    $sum += $i;
+}
+echo '<br>' . $sum;
+
+echo '<br>';
+
+
