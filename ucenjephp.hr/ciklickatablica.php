@@ -128,7 +128,7 @@ for($i=5;$i>=0;$i--){
     for($j=5;$j>=1;$j--){
     
         echo '<td style="text-align: right;">' . $i + $j, '</td>';
-        $matrica=[]; //staviti dvije vrijednosti npr pocetna reda? red? stupac? i brojac?
+         $matrica=[]; //staviti dvije vrijednosti npr pocetna reda? red? stupac? i brojac?
                     // nakon toga if uvjet i brojac
         
     }

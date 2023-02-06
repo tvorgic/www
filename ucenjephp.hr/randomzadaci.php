@@ -130,3 +130,48 @@ echo '<br>' . $sum;
 echo '<br>';
 
 
+for ($i=1; $i<=10; $i++){
+    if($i < 10){
+        echo $i . '-';
+    } else echo $i;
+}
+
+echo '<br>';
+echo "<hr>";
+
+
+ $num = 0;
+for($i=1; $i<=30; $i++){
+    $num+=$i;
+}
+
+echo $num;
+
+echo '<br>';
+echo "<hr>";
+
+
+/*
+3. Create a script to construct the following pattern, using nested for loop. Go to the editor
+
+*  
+* *  
+* * *  
+* * * *  
+* * * * *   
+ */
+
+ for($i=1; $i<=5; $i++){
+    for($j=1; $j<=$i; $j++){
+        echo '*';
+
+        if($i<$j){
+            echo ' ' ;
+        } 
+
+    }
+    echo "\n";
+ }
+
+
+
