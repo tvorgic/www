@@ -137,3 +137,6 @@ for($i=5;$i>=0;$i--){
 }
 
 //barem nekakav napredak. proučiti dalje 
+
+//definirati tablicu, koristiti while i prouciti kako se odvojeno krecu stupci i kolone.
+//ne moze u isto vrijeme. oduzeti jedan od broja reda/stupca ovisi sto se popunjaava
