@@ -21,6 +21,11 @@ $_SESSION['kljuc'] = 'Hello';
 
 <body>
     Javni dio
+    <form action="autorizacija.php" method="post">
+        <input type="text" name="email" placeholder="email">
+        <input type="password" name="lozinka" placeholder="email">
+        <input type="submit" value="Autoriziraj se">
+    </form>
 </body>
 
 </html>
