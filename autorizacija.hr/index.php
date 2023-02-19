@@ -1,11 +1,10 @@
 <?php
-session_start();
+//session_start();
 
-echo '<pre>';
-print_r($_COOKIE);
-echo '</pre>';
-
-$_SESSION['kljuc'] = 'Hello';
+//echo '<pre>';
+//print_r($_COOKIE);
+//echo '</pre>';
+//$_SESSION['kljuc'] = 'Hello';
 ?>
 
 

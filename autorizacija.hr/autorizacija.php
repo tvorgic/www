@@ -1,5 +1,8 @@
 <?php
 
+//prvo ce se odraditi kontrole treba li uopće ici 
+//autorizirati
+
 //ide autorizacija u bazu ali sada radim fiksno
 
 if (
