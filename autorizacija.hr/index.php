@@ -5,6 +5,9 @@
 //print_r($_COOKIE);
 //echo '</pre>';
 //$_SESSION['kljuc'] = 'Hello';
+
+$email = isset($_GET['email']) ? $_GET['email'] : (isset($_COOKIE['email']) ? $_COOKIE['email'] : '');
+
 ?>
 
 
@@ -21,7 +24,7 @@
 <body>
     Javni dio
     <form action="autorizacija.php" method="post">
-        <input type="text" name="email" placeholder="email">
+        <input type="text" name="email" value="<?= $email ?>" placeholder="email">
         <input type="password" name="lozinka" placeholder="email">
         <input type="submit" value="Autoriziraj se">
     </form>

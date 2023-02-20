@@ -12,6 +12,6 @@
     </Directory>
 </VirtualHost>
 
-//$PATH služi za stavljanje path-a do kirektorija
+//$PATH služi za stavljanje path-a do direktorija
 
 
