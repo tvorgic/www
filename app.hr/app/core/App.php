@@ -37,12 +37,14 @@ class App{
      }
      Log::info($metoda);
 
-     if(class_exists($controller) && method_exists($controller,$metoda)){
-      //izvedi ju
-      $instanca = new $controller();
-      $instanca->$metoda();
-     } else {
+     if(!(class_exists($controller) && method_exists($controller,$metoda))){
       echo ' Ne postoji ' . $controller . '-&gt;' . $metoda;
-     }
+      return;
+      
+     } 
+
+     //izvedi ju
+     $instanca = new $controller();
+     $instanca->$metoda();
   }
 }
