@@ -17,3 +17,24 @@ $zaAutoload=[
 ];
 
 //view ne ide u autoload jer su u njem phtml datoteke
+
+$putanje = implode(PATH_SEPARATOR, $zaAutoload);
+
+set_include_path($putanje);
+
+spl_autoload_register(function($klasa){
+  echo 'u spl_autoload , tražim klasu ' . $klasa
+. '<br>';
+  $putanje = explode(PATH_SEPARATOR, get_include_path());
+  foreach($putanje as $putanja){
+    //echo $putanja . '<br>';
+    $datoteka = $putanja . DIRECTORY_SEPARATOR . $klasa . '.php';
+    //echo $datoteka, '<br>';
+    if(file_exists($datoteka)){
+      require_once $datoteka;
+      break;
+    }
+  }
+});
+
+new Osoba();
