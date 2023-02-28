@@ -8,13 +8,13 @@ class App{
 
     $ruta = Request::getRuta();
 
-    Log::info($ruta);
+    //Log::info($ruta); //     /smjer/index
 
 
 
     $djelovi = explode('/',substr($ruta,1));
 
-    Log::info($djelovi);
+    //Log::info($djelovi);
 
     //idem razatnati kontroler
 
@@ -25,7 +25,7 @@ class App{
     } else {
       $controller = ucfirst($djelovi[0]) . 'Controller';
     }
-     Log::info($controller);
+     //Log::info($controller);
 
      //idem razaznati metodu
 
@@ -35,7 +35,7 @@ class App{
      } else {
       $metoda=$djelovi[1];
      }
-     Log::info($metoda);
+     //Log::info($metoda);
 
      if(!(class_exists($controller) && method_exists($controller,$metoda))){
       echo ' Ne postoji ' . $controller . '-&gt;' . $metoda;
