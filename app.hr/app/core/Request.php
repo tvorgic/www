@@ -2,13 +2,16 @@
 
 class Request
 {
-  public static function getRuta(){
-    $ruta = '';
-    if(isset($_SERVER['REDIRECT_PATH_INFO'])){
-      $ruta =  $_SERVER['REDIRECT_PATH_INFO'];
-    } else if (isset($_SERVER['REQUEST_URI'])){
-      $ruta = $_SERVER['REQUEST_URI'];
+
+    public static function getRuta()
+    {
+        $ruta='';
+        if(isset($_SERVER['REDIRECT_PATH_INFO'])){
+            $ruta = $_SERVER['REDIRECT_PATH_INFO'];
+        } else if (isset($_SERVER['REQUEST_URI'])){
+            $ruta = $_SERVER['REQUEST_URI'];
+        }
+        return $ruta;
     }
-    return $ruta;
-  }
+
 }

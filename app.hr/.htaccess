@@ -1,5 +1,3 @@
-
-
 # Prvo uključiti URL rewrite
 RewriteEngine On
 
@@ -12,4 +10,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 # sve ostale upite vodi na index.php
 RewriteRule (.*) index.php [L,E=PATH_INFO:/$1]
 
-#prvi milestone gotov
